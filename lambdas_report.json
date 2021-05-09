@@ -1,0 +1,1227 @@
+[
+    {
+        "Region": "us-east-1",
+        "FunctionName": "test_redirect_url",
+        "RoleName": "test_redirect_url-role-umxj23hf",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaBasicExecutionRole-50ab478c-1fd4-4c80-9c61-63254ba6b9e1",
+                "PolicyArn": "arn:aws:iam::838635938245:policy/service-role/AWSLambdaBasicExecutionRole-50ab478c-1fd4-4c80-9c61-63254ba6b9e1",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Action": "logs:CreateLogGroup",
+                            "Resource": "arn:aws:logs:us-east-1:838635938245:*"
+                        },
+                        {
+                            "Effect": "Allow",
+                            "Action": [
+                                "logs:CreateLogStream",
+                                "logs:PutLogEvents"
+                            ],
+                            "Resource": [
+                                "arn:aws:logs:us-east-1:838635938245:log-group:/aws/lambda/test_redirect_url:*"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "rs-html2pdf",
+        "RoleName": "rs-html2pdf-role-gndbtp3e",
+        "Policies": [
+            {
+                "PolicyName": "AmazonS3FullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonS3FullAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonS3FullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonS3FullAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "findWeather",
+        "RoleName": "dev-rS-role",
+        "Policies": [
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "lambda-sqs",
+        "RoleName": "lambda-sqs-role-7z2za4sd",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaSQSQueueExecutionRole",
+                "PolicyArn": "arn:aws:iam::aws:policy/service-role/AWSLambdaSQSQueueExecutionRole",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AWSLambdaSQSQueueExecutionRole",
+                "PolicyArn": "arn:aws:iam::aws:policy/service-role/AWSLambdaSQSQueueExecutionRole",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "python-example-iam-dev-hello-iam-example",
+        "RoleName": "python-example-iam-dev-us-east-1-lambdaRole",
+        "Policies": []
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "haipb-testing-request-url-nodejs",
+        "RoleName": "haipb-testing-request-url-nodejs-role-v3cz4cn2",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaBasicExecutionRole-06bbf972-36cd-423b-858f-0ab541e28aca",
+                "PolicyArn": "arn:aws:iam::838635938245:policy/service-role/AWSLambdaBasicExecutionRole-06bbf972-36cd-423b-858f-0ab541e28aca",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Action": "logs:CreateLogGroup",
+                            "Resource": "arn:aws:logs:us-east-1:838635938245:*"
+                        },
+                        {
+                            "Effect": "Allow",
+                            "Action": [
+                                "logs:CreateLogStream",
+                                "logs:PutLogEvents"
+                            ],
+                            "Resource": [
+                                "arn:aws:logs:us-east-1:838635938245:log-group:/aws/lambda/haipb-testing-request-url-nodejs:*"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "python-example-environment-variables-dev-hello-env-john",
+        "RoleName": "python-example-environment-variables-dev-us-east-1-lambdaRole",
+        "Policies": []
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "ria-crop-demo",
+        "RoleName": "dev-rS-role",
+        "Policies": [
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "rs-html2pdf-asyn",
+        "RoleName": "rs-html2pdf-role-gndbtp3e",
+        "Policies": [
+            {
+                "PolicyName": "AmazonS3FullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonS3FullAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonS3FullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonS3FullAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "python-example-environment-variables-dev-hello-env-marc",
+        "RoleName": "python-example-environment-variables-dev-us-east-1-lambdaRole",
+        "Policies": []
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "generative-weather-chatbot",
+        "RoleName": "dev-rS-role",
+        "Policies": [
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "vsii-fcm",
+        "RoleName": "vsii-fcm-role-zcoya1me",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaBasicExecutionRole-0ac2c690-7706-4b01-9fe0-2060a287c709",
+                "PolicyArn": "arn:aws:iam::838635938245:policy/service-role/AWSLambdaBasicExecutionRole-0ac2c690-7706-4b01-9fe0-2060a287c709",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Action": "logs:CreateLogGroup",
+                            "Resource": "arn:aws:logs:us-east-1:838635938245:*"
+                        },
+                        {
+                            "Effect": "Allow",
+                            "Action": [
+                                "logs:CreateLogStream",
+                                "logs:PutLogEvents"
+                            ],
+                            "Resource": [
+                                "arn:aws:logs:us-east-1:838635938245:log-group:/aws/lambda/vsii-fcm:*"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "process_image_upload",
+        "RoleName": "dev-rS-role",
+        "Policies": [
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "randomMessages",
+        "RoleName": "randomMessages-role-hklwpkcj",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaBasicExecutionRole-8acba5fa-0296-4133-8171-3030e56e126c",
+                "PolicyArn": "arn:aws:iam::838635938245:policy/service-role/AWSLambdaBasicExecutionRole-8acba5fa-0296-4133-8171-3030e56e126c",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Action": "logs:CreateLogGroup",
+                            "Resource": "arn:aws:logs:us-east-1:838635938245:*"
+                        },
+                        {
+                            "Effect": "Allow",
+                            "Action": [
+                                "logs:CreateLogStream",
+                                "logs:PutLogEvents"
+                            ],
+                            "Resource": [
+                                "arn:aws:logs:us-east-1:838635938245:log-group:/aws/lambda/randomMessages:*"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "haipb-testing-get-redirect-image",
+        "RoleName": "ria_html2pdf-role-519vlbdj",
+        "Policies": [
+            {
+                "PolicyName": "AmazonS3FullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonS3FullAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonS3FullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonS3FullAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "python-example-vpc-dev-hello-vpc",
+        "RoleName": "python-example-vpc-dev-us-east-1-lambdaRole",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaVPCAccessExecutionRole",
+                "PolicyArn": "arn:aws:iam::aws:policy/service-role/AWSLambdaVPCAccessExecutionRole",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "LambdaChildFunction",
+        "RoleName": "LambdaChildFunction-role-epd8dioo",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaBasicExecutionRole-e21ffafe-0fbb-4938-9f2c-4962c2ad6837",
+                "PolicyArn": "arn:aws:iam::838635938245:policy/service-role/AWSLambdaBasicExecutionRole-e21ffafe-0fbb-4938-9f2c-4962c2ad6837",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Action": "logs:CreateLogGroup",
+                            "Resource": "arn:aws:logs:us-east-1:838635938245:*"
+                        },
+                        {
+                            "Effect": "Allow",
+                            "Action": [
+                                "logs:CreateLogStream",
+                                "logs:PutLogEvents"
+                            ],
+                            "Resource": [
+                                "arn:aws:logs:us-east-1:838635938245:log-group:/aws/lambda/LambdaChildFunction:*"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "vsii-weather-chatbot",
+        "RoleName": "dev-rS-role",
+        "Policies": [
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "python-s3-thumbnail-dev-s3-thumbnail-generator",
+        "RoleName": "python-s3-thumbnail-dev-us-east-1-lambdaRole",
+        "Policies": []
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "ria_weatherLamdaFunc_demo",
+        "RoleName": "dev-rS-role",
+        "Policies": [
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "lambda_efs",
+        "RoleName": "lambda_efs",
+        "Policies": [
+            {
+                "PolicyName": "AmazonElasticFileSystemClientFullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientFullAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientFullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientFullAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientFullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientFullAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "hashtag_crop_demo",
+        "RoleName": "hashtag_crop_demo-role-0c66i6oy",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaBasicExecutionRole-ac28fde7-abd4-4b8c-92dc-56ceb788b06c",
+                "PolicyArn": "arn:aws:iam::838635938245:policy/service-role/AWSLambdaBasicExecutionRole-ac28fde7-abd4-4b8c-92dc-56ceb788b06c",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Action": "logs:CreateLogGroup",
+                            "Resource": "arn:aws:logs:us-east-1:838635938245:*"
+                        },
+                        {
+                            "Effect": "Allow",
+                            "Action": [
+                                "logs:CreateLogStream",
+                                "logs:PutLogEvents"
+                            ],
+                            "Resource": [
+                                "arn:aws:logs:us-east-1:838635938245:log-group:/aws/lambda/hashtag_crop_demo:*"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "rs-cloudfont-testing",
+        "RoleName": "edgeLambdaTriggerOnRequest",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaEdgeExecutionRole-e6efe932-352d-4eaa-95f7-72797291b18c",
+                "PolicyArn": "arn:aws:iam::838635938245:policy/service-role/AWSLambdaEdgeExecutionRole-e6efe932-352d-4eaa-95f7-72797291b18c",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Action": [
+                                "logs:CreateLogGroup",
+                                "logs:CreateLogStream",
+                                "logs:PutLogEvents"
+                            ],
+                            "Resource": [
+                                "arn:aws:logs:*:*:*"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "LambdaParentFunction",
+        "RoleName": "InvokeOtherLambdaRole",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaBasicExecutionRole",
+                "PolicyArn": "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AWSLambdaBasicExecutionRole",
+                "PolicyArn": "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AWSLambdaBasicExecutionRole",
+                "PolicyArn": "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "ria-ai-hashtag-lambda-1",
+        "RoleName": "dev-rS-role",
+        "Policies": [
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "ria-ai-collage-detection-transform-output",
+        "RoleName": "dev-rS-role",
+        "Policies": [
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "sam-app-HelloWorldFunction-U5MYTWBRZ343",
+        "RoleName": "sam-app-HelloWorldFunctionRole-1KH4Q6I2UHEVF",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaBasicExecutionRole",
+                "PolicyArn": "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "tvt-combine-names",
+        "RoleName": "tvt-combine-names-role-floekn6f",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaBasicExecutionRole-e09e73d0-5d40-4b6c-b949-c93eba9892a2",
+                "PolicyArn": "arn:aws:iam::838635938245:policy/service-role/AWSLambdaBasicExecutionRole-e09e73d0-5d40-4b6c-b949-c93eba9892a2",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Action": "logs:CreateLogGroup",
+                            "Resource": "arn:aws:logs:us-east-1:838635938245:*"
+                        },
+                        {
+                            "Effect": "Allow",
+                            "Action": [
+                                "logs:CreateLogStream",
+                                "logs:PutLogEvents"
+                            ],
+                            "Resource": [
+                                "arn:aws:logs:us-east-1:838635938245:log-group:/aws/lambda/tvt-combine-names:*"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "presignedUrl",
+        "RoleName": "presignedUrl-role-vz51jf7b",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaBasicExecutionRole-697e4c17-2b7d-414d-ae8b-ba11c991a030",
+                "PolicyArn": "arn:aws:iam::838635938245:policy/service-role/AWSLambdaBasicExecutionRole-697e4c17-2b7d-414d-ae8b-ba11c991a030",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Action": "logs:CreateLogGroup",
+                            "Resource": "arn:aws:logs:us-east-1:838635938245:*"
+                        },
+                        {
+                            "Effect": "Allow",
+                            "Action": [
+                                "logs:CreateLogStream",
+                                "logs:PutLogEvents"
+                            ],
+                            "Resource": [
+                                "arn:aws:logs:us-east-1:838635938245:log-group:/aws/lambda/presignedUrl:*"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "ria-chat-bot-lambda",
+        "RoleName": "dev-rS-role",
+        "Policies": [
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "tvt_lambda_sf_helloworld",
+        "RoleName": "tvt_lambda_stepfunction_demo_role",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaBasicExecutionRole",
+                "PolicyArn": "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "thangcm-test-upload-lambda",
+        "RoleName": "dev-rS-role",
+        "Policies": [
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "lambda_test_pandas",
+        "RoleName": "dev-rS-role",
+        "Policies": [
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "ria-convert-url-to-base64",
+        "RoleName": "ria-convert-url-to-base64-role-s6z23udw",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaBasicExecutionRole-ad90ba08-b6af-43c4-aaae-30d82b1c91f4",
+                "PolicyArn": "arn:aws:iam::838635938245:policy/service-role/AWSLambdaBasicExecutionRole-ad90ba08-b6af-43c4-aaae-30d82b1c91f4",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Action": "logs:CreateLogGroup",
+                            "Resource": "arn:aws:logs:us-east-1:838635938245:*"
+                        },
+                        {
+                            "Effect": "Allow",
+                            "Action": [
+                                "logs:CreateLogStream",
+                                "logs:PutLogEvents"
+                            ],
+                            "Resource": [
+                                "arn:aws:logs:us-east-1:838635938245:log-group:/aws/lambda/ria-convert-url-to-base64:*"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "ria_demo_fallBackIntent",
+        "RoleName": "dev-rS-role",
+        "Policies": [
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "anhpt-lambda-test",
+        "RoleName": "test-qa-role-across-to-dev",
+        "Policies": []
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "test_collage_detection",
+        "RoleName": "test_collage_detection-role-xy8neocw",
+        "Policies": [
+            {
+                "PolicyName": "AWSLambdaBasicExecutionRole-cf87986f-c6c7-4713-8b27-f0a54cc47fb5",
+                "PolicyArn": "arn:aws:iam::838635938245:policy/service-role/AWSLambdaBasicExecutionRole-cf87986f-c6c7-4713-8b27-f0a54cc47fb5",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Action": "logs:CreateLogGroup",
+                            "Resource": "arn:aws:logs:us-east-1:838635938245:*"
+                        },
+                        {
+                            "Effect": "Allow",
+                            "Action": [
+                                "logs:CreateLogStream",
+                                "logs:PutLogEvents"
+                            ],
+                            "Resource": [
+                                "arn:aws:logs:us-east-1:838635938245:log-group:/aws/lambda/test_collage_detection:*"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "ria_demo_recommend_intent",
+        "RoleName": "dev-rS-role",
+        "Policies": [
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "haipbTestingSAM-HelloWorldFunction-SYX083EAMZ9U",
+        "RoleName": "EdgeLambdaCheckTokenS3Role",
+        "Policies": [
+            {
+                "PolicyName": "CloudFrontFullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/CloudFrontFullAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "CloudFrontFullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/CloudFrontFullAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    },
+    {
+        "Region": "us-east-1",
+        "FunctionName": "ria-ai-hashtag-lambda",
+        "RoleName": "ria-ai-hashtag-role-s3",
+        "Policies": [
+            {
+                "PolicyName": "CloudWatchLogsFullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/CloudWatchLogsFullAccess",
+                "PolicyDocument": "built-in"
+            },
+            {
+                "PolicyName": "CloudWatchLogsFullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/CloudWatchLogsFullAccess",
+                "PolicyDocument": "built-in"
+            }
+        ]
+    }
+]
